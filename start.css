@@ -1,4 +1,4 @@
-/html>/* ✅ استايل عام للصفحة */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +7,12 @@
 }
 
 body {
-    background: white; /* ✅ جعل الخلفية بيضاء في جميع الصفحات */
+    background: white; 
     color: #333;
     line-height: 1.6;
 }
 
-/* ✅ تثبيت البانر (Navigation Bar) */
+ (Navigation Bar) 
 nav {
     position: fixed;
     top: 0;
@@ -47,7 +47,6 @@ nav ul li a.active {
     color: blue;
 }
 
-/* ✅ تصميم الصفحة الرئيسية */
 .hero {
     margin-top: 80px;
     padding: 100px 10%;
@@ -96,7 +95,6 @@ nav ul li a.active {
     background: darkblue;
 }
 
-/* ✅ تصميم صفحة About Us */
 .about {
     display: flex;
     align-items: center;
@@ -147,8 +145,6 @@ nav ul li a.active {
     width: 40%;
     border-radius: 10px;
 }
-
-/* ✅ تصميم صفحة الخدمات Services */
 .services {
     margin-top: 80px;
     padding: 50px 10%;
@@ -276,7 +272,6 @@ nav ul li a.active {
     height: 25px;
 }
 
-/* ✅ تحسين استجابة التصميم */
 @media (max-width: 768px) {
     nav {
         padding: 15px 20px;
